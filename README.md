@@ -1,9 +1,8 @@
-# Резюме
+# CV
 
-Это моё резюме, составленное на английском языке и свёрстанное в *LaTex*.
+This is my english CV created in *LaTex*. In this repo presented result file (*cv.pdf*) with source code (*src/*).
 
-Буду обновлять кода понадобиться.
 
 ------------------
 
-**Made by Max Bronnikov**
+**Made by Maksim Bronnikov**

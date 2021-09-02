@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{graphicx}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.55\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Maksim}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Bronnikov}}}}} % Last name
+	
+	\vspace{7pt}
+	
+	{\huge NN Compiler and Runtime developer} % Career or current job title
+	
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\hspace*{4cm}\includegraphics[scale = 0.4]{max.png}\\
+	
+\end{minipage}
+
+\vspace{0.2cm}
+
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Moscow, Russia}\\
+	\icon{Phone}{12}{+7 953 335 68 73}\\
+	\icon{At}{12}{\href{mailto:max120199@gmail.com}{max120199@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\icon{Vk}{12}{\href{https://vk.com/mbronnikov}{vk.com/mbronnikov}}\\
+	\icon{Github}{12}{\href{https://github.com/Bronnikoff}{github.com/m-bronnikov}}\\
+	\icon{PaperPlane}{12}{\href{https://t.me/decrement}{@decrement}}\\
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	
+\end{minipage}
+
+\vspace{0.2cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{About me}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+I create efficient programs with C++ and search non-standard solutions to any tasks. While studying in "Applied mathematics and computer science", I received a good mathematical education, which helps to me in my work. I apply on practice knowledge of compilers and neural networks for developing elegant and beautiful optimized code. Trying to find myself in site development has rewarded me with an understanding of the main business processes and the importance of getting the job done on time.  I am sure that my focus on results and desire to create can help me and my team achieve success in tasks of any complexity. 
+
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Linux}{60}
+		\baritem{C++}{100}
+		\baritem{Python}{80}
+		\baritem{Git}{60}
+		\baritem{Bash}{50}
+	\end{barchart}
+	\vspace{0.3cm}
+	\begin{center}
+    \bubbles{4/Numpy, 3/MatPlotLib, 5/STL, 4/Tensorflow}
+    \end{center}
+\end{minipage}
+
+\vspace{0.2cm}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2020}
+		{Web Development}
+		{Alone}
+		{I developed any websites, including online stores and vcard sites.\\
+		\texttt{Django}\slashsep\texttt{Python}\slashsep\texttt{HTML/CSS}}
+	\entry
+		{2020}
+		{C++ Developer}
+		{CSoft}
+		{Development of NanoCAD modules.  \\
+		\texttt{C++}\slashsep\texttt{ObjectARX}}
+	\entry
+		{2020-2021}
+		{NPU Compiler and Runtime developer}
+		{Samsung Research Russia}
+		{Working on Samsung ONE neural framework and compiler for NPU.  \\
+		\texttt{C++}\slashsep\texttt{Python}\slashsep\texttt{Neural Networks}\slashsep\texttt{NPU}}
+		
+\end{entrylist}
+
+\vspace{0.2cm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2017 -- 2021}
+		{Bachelor’s Degree}
+		{Moscow Aviation Institute}
+		{Applied Mathematics and Computer Science}
+	\entry
+		{2019}
+		{Course}
+		{Mail.ru Group}
+		{Machine Learning in MAI}
+	\entry
+		{2020}
+		{Course}
+		{Mail.Ru Group, MIPT}
+		{Python for Data analysis}
+\end{entrylist}
+
+\vspace{0.2cm}
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Russian} - native\\
+	\textbf{English} - B2 level\\
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	In addition to work, I'm interested in Olympiad programming, data analysis and machine learning. Also, I like to spend my time with different sport activities.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Ready to work}
+	
+	I am ready to full time work.
+	
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
